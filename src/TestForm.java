@@ -11,7 +11,10 @@ public class TestForm implements ActionListener {
     private String text;
     private JButton button;
 
+    public static void main(String[] args) {
 
+        new TestForm();
+    }
 
     private TestForm(){
         frame = new JFrame();
@@ -83,12 +86,7 @@ public class TestForm implements ActionListener {
     }
 
 
-    public static void main(String[] args) {
 
-    new TestForm();
-
-
-    }
 
 
 
